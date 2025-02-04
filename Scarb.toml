@@ -27,4 +27,4 @@ sierra = true
 sort-module-level-items = true
 
 [features]
-messaging_test = []
+default = []

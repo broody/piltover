@@ -297,7 +297,6 @@ pub mod messaging_cpt {
             return message_hash;
         }
 
-        #[cfg(feature: 'messaging_test')]
         fn add_messages_hashes_from_appchain(
             ref self: ComponentState<TContractState>, messages_hashes: Span<felt252>,
         ) {
